@@ -152,7 +152,8 @@ body {
 
 .menu img {
   margin: auto;
-   height: 650px;
+  width: 99%;
+  height: 650px;
   border: #FFD700 4px solid;
 }
 
