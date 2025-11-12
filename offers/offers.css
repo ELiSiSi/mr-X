@@ -1,0 +1,209 @@
+:root {
+  --main-color: #000000;
+  --secondary-color: #FFD700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-color);
+  width: 100%;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ @media (max-width: 300px) {
+  .container {
+    width: 360px;
+  }
+}
+
+
+/* start header */
+/* start header */
+/* start header */
+.header {
+  background-color: #ffffff;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.header img {
+  width: 110px;
+  margin: 0px;
+  padding: 0px;
+
+  animation-name: thebest;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes thebest {
+  0% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 20px 0;
+  }
+
+  100% {
+    translate: 0 0;
+  }
+}
+
+.header .container .name {
+ color: var(--main-color)}
+
+.header .container .name span {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-color: #fff;
+    height: 50px;
+    padding-bottom: 20px;
+    padding-top: -200px;
+    margin-top: 0px;
+  }
+
+  .header img {
+    width: 40px;
+  }
+
+  .header .container .name {
+    font-size: 14px;
+    color: var(--main-color);
+  }
+}
+
+    /* The offer */
+   /* The offer */
+  /* The offer */
+
+  .title{
+    margin-top: 20px;
+    margin-bottom: -25px;
+    text-align: center;
+  }
+  .title .text{
+color: #FFD700 ;
+
+    font-size: 50px;
+  }
+
+    .title .text:hover{
+color: #ffffff;
+    font-size: 55px;
+  }
+
+  /* start offer */
+ /* staer offer */
+/* start offer */
+
+
+
+ .offers {
+   margin: auto;
+  margin-top: 50px;
+ text-align: center;
+ padding: 0px;
+ display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+ 
+
+gap: 20px;
+
+padding-bottom: 50px;
+
+ 
+ }
+
+
+  .offers .box{
+margin: auto;
+background-color: #FFD700;
+border: #FFD700 3px solid ;
+
+  }
+
+  
+  .offers .box img{
+margin: auto;
+
+width: 100% ;
+ 
+    
+  }
+
+  
+  .offers .box p{
+font-size: 17px;
+font-weight: 900;
+margin: auto;
+
+color: #000000;
+direction: rtl;
+    
+  }
+
+   /* start  click */
+  /* start  click */
+ /* start  click */
+
+
+ 
+  .click .container form {
+ 
+ margin-bottom: 30px;
+ 
+ 
+text-align: center;
+
+ }
+
+  .container form .text{
+
+font-size: 40px;
+color: var(--secondary-color);
+line-height: 2;
+
+ }
+
+  .container form  a{
+
+font-size: 40px;
+background-color: rgb(255, 255, 255);
+color: #000;
+
+border: 2px solid black;
+padding: 5px;
+ 
+ 
+
+ }
+ 
+  .container form a:hover{
+color: var(--secondary-color);
+font-size: 45px;
+ 
+
+ }
